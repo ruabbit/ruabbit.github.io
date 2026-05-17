@@ -6,16 +6,16 @@ Codename: ios
 Architectures: iphoneos-arm
 Components: main
 Description: Ruabbit Cydia/APT repository
-Date: Sun, 17 May 2026 21:10:24 GMT
+Date: Sun, 17 May 2026 21:27:40 GMT
 MD5Sum:
- b7839e216a460bedff9e53b38c356a91            12134 Packages
- 291c0c71a820cb48d4dc7682c5ef4999             4537 Packages.gz
- 7e2eff3ddce51d113b9820238da31d82             4561 Packages.bz2
+ 000faa0a7abd9b37b42bdb4864cd7c6e            12142 Packages
+ 442439ace2102cf64b4f574557d88fa2             4530 Packages.gz
+ 3e9c91594f99cba651b1bff550393f0a             4559 Packages.bz2
 SHA1:
- 9d409a6acf1adfea0a680897f1b7739891bdbdfd            12134 Packages
- 26de78cf6f6cfe7d8aeb75b95f392f8097573f15             4537 Packages.gz
- 679259d192bb2317e2e810e3a2a667aa4e4900b7             4561 Packages.bz2
+ 9891221b5a0a9a1452a4ca738a7969c26e7dc02d            12142 Packages
+ bf091dec9d5da2c3088209183c92ad69b5bfd5bf             4530 Packages.gz
+ 7465033d581cb3026bc12d09cd0a3fc58f54a3d4             4559 Packages.bz2
 SHA256:
- 82b9c3759eb73cea19e0b431e1cd2e3b5f51f748860d7ac674bcd2734aa1b9f8            12134 Packages
- cd136ec286631f629f15655e0f7a92faf853d8167392a074c2ab7eb048c60b88             4537 Packages.gz
- 8f5e4aef1a2279584acd04e56e9beba1030ccb75d48ec770590b280482cef1fb             4561 Packages.bz2
+ e065e419000b885fff282de70ecbd371676199eab255784f076720d7238a7931            12142 Packages
+ 481e49da9225d1aebe4d5253d0730da7e6a53f8820ec96e793b86b8abc25752b             4530 Packages.gz
+ beb7b9b07dead01b9eab2fa83008a3d711a0babf05883375707f7748d4c7082e             4559 Packages.bz2

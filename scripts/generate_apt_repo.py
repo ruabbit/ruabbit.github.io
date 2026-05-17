@@ -26,6 +26,10 @@ LEGACY_BASES = (
     "https://mdallak.github.io",
 )
 
+PACKAGE_DEPICTION_OVERRIDES = {
+    "com.repo.xarold.com.cydown": "/depic/index.html?p=CyDown606",
+}
+
 GENERATED_FIELDS = {
     "filename",
     "size",
@@ -165,6 +169,22 @@ def rewrite_legacy_urls(fields: list[Field], depiction_base: str | None) -> None
             field.value = field.value.replace(legacy_base, clean_base)
 
 
+def apply_depiction_overrides(fields: list[Field], depiction_base: str | None) -> None:
+    if not depiction_base:
+        return
+
+    package = next((field.value for field in fields if field.name.lower() == "package"), None)
+    if package not in PACKAGE_DEPICTION_OVERRIDES:
+        return
+
+    depiction_url = depiction_base.rstrip("/") + PACKAGE_DEPICTION_OVERRIDES[package]
+    for field in fields:
+        if field.name.lower() == "depiction":
+            field.value = depiction_url
+            return
+    fields.append(Field("Depiction", depiction_url))
+
+
 def checksums(path: Path) -> tuple[str, str, str]:
     md5 = hashlib.md5()
     sha1 = hashlib.sha1()
@@ -180,6 +200,7 @@ def checksums(path: Path) -> tuple[str, str, str]:
 def build_entry(root: Path, deb_path: Path, depiction_base: str | None) -> PackageEntry:
     fields = parse_fields(read_control(deb_path))
     rewrite_legacy_urls(fields, depiction_base)
+    apply_depiction_overrides(fields, depiction_base)
 
     fields = [field for field in fields if field.name.lower() not in GENERATED_FIELDS]
     rel_path = deb_path.relative_to(root).as_posix()

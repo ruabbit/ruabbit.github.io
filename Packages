@@ -167,7 +167,7 @@ MD5sum: 7dd1366985146dd61f38c9fda0791a02
 SHA1: 241502e218f58c52473b131caf3fb7d5884eeadb
 SHA256: 3f8fca4b8e984dcb7e25fe1ca61ac5e58349be8ef18205c5744de40c246dc5c5
 Description: Install paid packages for Free in Cydia!
-Depiction: http://repo.xarold.com/depiction.php?id=cydown
+Depiction: https://ruabbit.github.io/depic/index.html?p=CyDown606
 Author: julioverne 
 Section: Tweaks
 Depends: cydia (>= 1.1.23), mobilesubstrate, preferenceloader, firmware (<< 8.3) | ldid (>= 1:1.2.1), coreutils-bin, coreutils, apt7

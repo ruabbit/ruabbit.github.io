@@ -1,0 +1,30 @@
+<package>
+	<name>CyDown</name>
+	<version>6.0.6</version>
+	<compatibility>
+		<firmware>
+			<miniOS>5.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>cydia (&gt;= 1.1.23)</package>
+		<package>mobilesubstrate</package>
+		<package>preferenceloader</package>
+		<package>coreutils-bin</package>
+		<package>coreutils</package>
+		<package>apt7</package>
+	</dependencies>
+	<descriptionlist>
+		<description>CyDown 6.0.6 package mirrored from the legacy Xarold repository.</description>
+		<description>The original Xarold depiction endpoint is unavailable, so this local depiction is hosted by this repository.</description>
+	</descriptionlist>
+	<changelog>
+		<change>Local depiction added for the mirrored 6.0.6 package.</change>
+	</changelog>
+	<links>
+		<link>
+			<name>Repository</name>
+			<url>https://ruabbit.github.io</url>
+		</link>
+	</links>
+</package>
