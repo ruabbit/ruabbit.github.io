@@ -1,0 +1,21 @@
+Origin: Ruabbit
+Label: Ruabbit
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: Ruabbit Cydia/APT repository
+Date: Sun, 17 May 2026 20:58:47 GMT
+MD5Sum:
+ 17daddfaee0efad24d58d77d431230b7            11446 Packages
+ 827cf33fe8675775030c3f137ef61499             4341 Packages.gz
+ 9b8715babbd3b770cb16b01db2b24899             4381 Packages.bz2
+SHA1:
+ ec21d9c080383dd7afffdf8ea58d8e06f240f252            11446 Packages
+ 635db21ab79014bfe66fb5a7c348807735abecde             4341 Packages.gz
+ 3c5c8443bfdc09ebe26a38d885d56a4b1abf4580             4381 Packages.bz2
+SHA256:
+ 100913540fdf775347a0b9b80ac8020b2c8c11dec2bc24934a270293a8d86790            11446 Packages
+ a62e7f567d70945dff257be20053077ce6aae6b51408df6981f327140c9aa3a5             4341 Packages.gz
+ 7d5c92a30934c908cf47f9b4f0301d7a6aed41cfd8824b846b94cc8f4654736a             4381 Packages.bz2

@@ -1,0 +1,29 @@
+<package>
+	<id>org.thebigboss.protube</id>
+	<name>ProTube</name>
+	<version>1.12.2</version>
+	<compatibility>
+		<firmware>
+			<miniOS>4.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>preferenceloader</package>
+	</dependencies>
+	<descriptionlist>
+        <description>Compatible with iOS 5, 6, 7, 8, 9 and 10</description>
+        <description>This purchase includes <br/> <a href="cydia://package/org.thebigboss.protubehd">ProTube HD!</a><br/> You won't need to pay extra for the iPad version!</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+		</screenshot>		
+	</screenshots>
+	<changelog>
+	</changelog>
+	<links>
+		<link>
+			<name>/r/jailbreak</name>
+			<url>https://www.reddit.com/r/jailbreak</url>
+		</link>
+	</links>
+</package>
