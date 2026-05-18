@@ -26,8 +26,8 @@ LEGACY_BASES = (
     "https://mdallak.github.io",
 )
 
-PACKAGE_DEPICTION_OVERRIDES = {
-    "com.repo.xarold.com.cydown": "/depic/index.html?p=CyDown606",
+PACKAGE_VERSION_DEPICTION_OVERRIDES = {
+    ("com.julioverne.cydown", "6.0.6"): "/depic/index.html?p=CyDown606",
 }
 
 GENERATED_FIELDS = {
@@ -174,10 +174,12 @@ def apply_depiction_overrides(fields: list[Field], depiction_base: str | None) -
         return
 
     package = next((field.value for field in fields if field.name.lower() == "package"), None)
-    if package not in PACKAGE_DEPICTION_OVERRIDES:
+    version = next((field.value for field in fields if field.name.lower() == "version"), None)
+    override_path = PACKAGE_VERSION_DEPICTION_OVERRIDES.get((package, version))
+    if override_path is None:
         return
 
-    depiction_url = depiction_base.rstrip("/") + PACKAGE_DEPICTION_OVERRIDES[package]
+    depiction_url = depiction_base.rstrip("/") + override_path
     for field in fields:
         if field.name.lower() == "depiction":
             field.value = depiction_url

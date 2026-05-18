@@ -110,6 +110,22 @@ Depiction: https://ruabbit.github.io/depic/index.html?p=AppCake
 
 Package: com.julioverne.cydown
 Name: CyDown
+Version: 6.0.6
+Architecture: iphoneos-arm
+Filename: debs/com.julioverne.cydown_6.0.6_iphoneos-arm.deb
+Size: 439610
+MD5sum: 0a4b4af2e335b503b847d1aa59d96ed7
+SHA1: 33b9bd3be53a12d43e59abf4c1805a4e1c98b7d5
+SHA256: 40e9f676ed3c9b01d86399c14a5aefbc63c9cab009fa71c6368a6bc0b553de8f
+Description: Install paid packages for Free in Cydia!
+Depiction: https://ruabbit.github.io/depic/index.html?p=CyDown606
+Author: julioverne 
+Section: Tweaks
+Depends: cydia (>= 1.1.23), mobilesubstrate, preferenceloader, firmware (<< 8.3) | ldid (>= 1:1.2.1), coreutils-bin, coreutils, apt7
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+
+Package: com.julioverne.cydown
+Name: CyDown
 Author: julioverne <julioverne@me.com>
 Version: 6.6.5
 Depends: cydia, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate
@@ -156,22 +172,6 @@ Maintainer: M Dallak <M_Dallak@outlook.com>
 Author: Misti <M_Dallak@outlook.com>
 Section: Fonts (BytaFont Tweak Mode)
 Description: Misti's Fonts for BytaFont 3 by M_Dallak
-
-Package: com.repo.xarold.com.cydown
-Name: CyDown
-Version: 6.0.6
-Architecture: iphoneos-arm
-Filename: debs/com.repo.xarold.com.cydown_6.0.6_iphoneos-arm.deb
-Size: 439608
-MD5sum: 7dd1366985146dd61f38c9fda0791a02
-SHA1: 241502e218f58c52473b131caf3fb7d5884eeadb
-SHA256: 3f8fca4b8e984dcb7e25fe1ca61ac5e58349be8ef18205c5744de40c246dc5c5
-Description: Install paid packages for Free in Cydia!
-Depiction: https://ruabbit.github.io/depic/index.html?p=CyDown606
-Author: julioverne 
-Section: Tweaks
-Depends: cydia (>= 1.1.23), mobilesubstrate, preferenceloader, firmware (<< 8.3) | ldid (>= 1:1.2.1), coreutils-bin, coreutils, apt7
-Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
 
 Package: com.tweaksbylogan.falcon
 Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.a3tweaks.flipswitch
