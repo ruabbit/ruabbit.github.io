@@ -263,6 +263,21 @@ Author: D4ni <mail@d4ni.nl>
 Description: Adds a springboard icon which can be used to reinstall Cydia if removed.
 Depiction: https://ruabbit.github.io/depic/index.html?p=Failsafe
 
+Package: p7zip
+Priority: optional
+Section: Archiving
+Installed-Size: 4328
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Filename: debs/p7zip_4.57-3p_iphoneos-arm.deb
+Size: 1595788
+MD5sum: 80396bec09f94e23cd1d59fe818cbf5f
+SHA1: ee4d0b30cb5628a31830cab89df3764cdfb27015
+SHA256: 72035b550c364ca25362a7f2dbf67254950da2c5989347a40f860eb56508816e
+Version: 4.57-3p
+Description: claims to be a good compressor
+Name: 7-zip (POSIX)
+
 Package: zm.IAPCrazy
 Name: IAPCrazy
 Version: 1.6.0
