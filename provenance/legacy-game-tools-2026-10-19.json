@@ -1,0 +1,92 @@
+{
+  "packages": [
+    {
+      "filename": "debs/GamePlayer_3.4_iphoneos-arm.deb",
+      "source_page": "https://www.malavida.com/en/soft/gameplayer/iphone/download",
+      "download_url": "https://dw18.malavida.com/dwn/249f393876f1357ea549fd1130f1e8bf621595fa6a04421e8156aa1fc344cfe1/GamePlayer.deb",
+      "retrieved_utc": "2026-10-18T17:56:11.363233+00:00",
+      "size": 1502822,
+      "md5": "49d88577e231d4c36ae0f8cbb40bfb14",
+      "sha256": "eaf7308247c12518e5123a078737aff94685b3534d2352926719bcc049adb440",
+      "control": {
+        "Package": "GamePlayer",
+        "Version": "3.4",
+        "Section": "utils",
+        "Priority": "optional",
+        "Pre-Depends": "firmware (>= 6.0), mobilesubstrate",
+        "Depends": "",
+        "Architecture": "iphoneos-arm",
+        "Installed-Size": "2800",
+        "Maintainer": "Maocai Luo <luomao2000@tom.com>",
+        "Description": "GamePlayer is a game cheating tool. It can easily modify HP, MP, money and so on. iOS 6.x, 7.x, 8.x and 9.x are supported."
+      },
+      "control_members": [
+        "./control",
+        "./postinst"
+      ],
+      "application_metadata": [
+        {
+          "path": "./Applications/GamePlayer.app/Info.plist",
+          "CFBundleIdentifier": "com.luomao.GamePlayer",
+          "CFBundleVersion": "3400",
+          "CFBundleShortVersionString": "3.4",
+          "MinimumOSVersion": "6.0"
+        }
+      ],
+      "deb_modified": false,
+      "device_tested": false,
+      "historical_index": {
+        "url": "https://raw.githubusercontent.com/JeffMv/cydia-packages-lists/master/apt.zntx.cc.Packages",
+        "filename": "tools/GamePlayer_V3.4.deb",
+        "size_matches": true,
+        "md5_matches": true
+      }
+    },
+    {
+      "filename": "debs/me.sbtools.GameMasterPlus_1.2.0_iphoneos-arm.deb",
+      "source_page": "https://www.cr173.com/soft/74243.html",
+      "download_url": "https://cz.197942.com/xz/soft1/shaobios.zip",
+      "retrieved_utc": "2026-10-18T17:56:12.005679+00:00",
+      "size": 627310,
+      "md5": "d87753c3026f6c62768a50750e9ecd52",
+      "sha256": "105aff2f5cc832f2f48b7ce5d75031268d7015e208f967d14e5d3b0b3d2a7585",
+      "control": {
+        "Package": "me.sbtools.GameMasterPlus",
+        "Name": "烧饼修改器",
+        "Version": "1.2.0",
+        "Section": "System",
+        "Depends": "firmware (>= 5.0)",
+        "Architecture": "iphoneos-arm",
+        "Description": "烧饼修改器支持iOS5、iOS6、iOS7(支持64位)。v1.2.0版：采用全新架构，秒搜结果，支持模糊、联合等高级搜索功能，支持控制数据类型，解决稳定性兼容性问题。烧饼修改器是一款通用游戏修改器，通过修改正在运行游戏的内存数据，达到修改血量、攻击、金钱等目的。国产神器，烧饼哥力作，用心设计，简单好用，完全免费无限制无广告，持续更新优化！——by烧饼哥，官网http://sbtools.me",
+        "Author": "烧饼哥",
+        "Sponsor": "烧饼哥",
+        "Maintainer": "烧饼哥",
+        "Icon": "file:///Applications/GameMasterPlus.app/icon@2x.png"
+      },
+      "control_members": [
+        "control"
+      ],
+      "application_metadata": [
+        {
+          "path": "Applications/GameMasterPlus.app/Info.plist",
+          "CFBundleIdentifier": "me.sbtools.GameMasterPlus",
+          "CFBundleVersion": "1.2.1",
+          "CFBundleShortVersionString": "1.2",
+          "MinimumOSVersion": "5.0",
+          "UIRequiredDeviceCapabilities": [
+            "armv7"
+          ]
+        }
+      ],
+      "deb_modified": false,
+      "device_tested": false,
+      "source_container": {
+        "filename": "shaobios.zip",
+        "sha256": "8294b3ab8112ed606227dd834eae32851bf0090e3786e7b159a3268c8b79f079",
+        "size": 625018,
+        "member": "IOS烧饼修改器.deb"
+      }
+    }
+  ],
+  "validation_scope": "Archive structure, package metadata, payload paths, installation scripts and repository checksums only. No device execution or full security audit."
+}

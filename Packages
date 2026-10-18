@@ -193,6 +193,39 @@ Section: Tweaks
 dev: tweaksbylogan
 Icon: file:///Library/PreferenceBundles/FalconPrefs.bundle/icon@2x.png
 
+Package: GamePlayer
+Version: 3.4
+Section: utils
+Priority: optional
+Pre-Depends: firmware (>= 6.0), mobilesubstrate
+Filename: debs/GamePlayer_3.4_iphoneos-arm.deb
+Size: 1502822
+MD5sum: 49d88577e231d4c36ae0f8cbb40bfb14
+SHA1: 2315df12d000df821673b469dbcd571af5266f78
+SHA256: eaf7308247c12518e5123a078737aff94685b3534d2352926719bcc049adb440
+Depends: 
+Architecture: iphoneos-arm
+Installed-Size: 2800
+Maintainer: Maocai Luo <luomao2000@tom.com>
+Description: GamePlayer is a game cheating tool. It can easily modify HP, MP, money and so on. iOS 6.x, 7.x, 8.x and 9.x are supported.
+
+Package: me.sbtools.GameMasterPlus
+Name: 烧饼修改器
+Version: 1.2.0
+Section: System
+Depends: firmware (>= 5.0)
+Filename: debs/me.sbtools.GameMasterPlus_1.2.0_iphoneos-arm.deb
+Size: 627310
+MD5sum: d87753c3026f6c62768a50750e9ecd52
+SHA1: 2096669dd88d4931c08bfc338a6e254765985524
+SHA256: 105aff2f5cc832f2f48b7ce5d75031268d7015e208f967d14e5d3b0b3d2a7585
+Architecture: iphoneos-arm
+Description: 烧饼修改器支持iOS5、iOS6、iOS7(支持64位)。v1.2.0版：采用全新架构，秒搜结果，支持模糊、联合等高级搜索功能，支持控制数据类型，解决稳定性兼容性问题。烧饼修改器是一款通用游戏修改器，通过修改正在运行游戏的内存数据，达到修改血量、攻击、金钱等目的。国产神器，烧饼哥力作，用心设计，简单好用，完全免费无限制无广告，持续更新优化！——by烧饼哥，官网http://sbtools.me
+Author: 烧饼哥
+Sponsor: 烧饼哥
+Maintainer: 烧饼哥
+Icon: file:///Applications/GameMasterPlus.app/icon@2x.png
+
 Package: me.thomasfinch.priorityhub
 Name: Priority Hub 2 BETA
 Depends: firmware (>= 10), mobilesubstrate, preferenceloader, applist
