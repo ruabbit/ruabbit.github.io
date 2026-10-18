@@ -28,6 +28,16 @@ LEGACY_BASES = (
 
 PACKAGE_VERSION_DEPICTION_OVERRIDES = {
     ("com.julioverne.cydown", "6.0.6"): "/depic/index.html?p=CyDown606",
+    ("me.sbtools.GameMasterPlus", "1.2.0"): "/depic/sbgamehacker-1.2.0.html",
+}
+
+PACKAGE_VERSION_DESCRIPTION_OVERRIDES = {
+    # Legacy Cydia can display non-ASCII summary text as question marks.
+    # Keep the original DEB intact and serve Chinese text in a UTF-8 depiction.
+    ("me.sbtools.GameMasterPlus", "1.2.0"): (
+        "SBGameHacker memory editor for jailbroken iOS 5, 6 and 7. "
+        "See the package details for the Chinese description."
+    ),
 }
 
 GENERATED_FIELDS = {
@@ -201,6 +211,14 @@ def checksums(path: Path) -> tuple[str, str, str]:
 
 def build_entry(root: Path, deb_path: Path, depiction_base: str | None) -> PackageEntry:
     fields = parse_fields(read_control(deb_path))
+    values = {field.name.lower(): field.value for field in fields}
+    description = PACKAGE_VERSION_DESCRIPTION_OVERRIDES.get(
+        (values.get("package"), values.get("version"))
+    )
+    if description is not None:
+        for field in fields:
+            if field.name.lower() == "description":
+                field.value = description
     rewrite_legacy_urls(fields, depiction_base)
     apply_depiction_overrides(fields, depiction_base)
 

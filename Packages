@@ -220,11 +220,12 @@ MD5sum: d87753c3026f6c62768a50750e9ecd52
 SHA1: 2096669dd88d4931c08bfc338a6e254765985524
 SHA256: 105aff2f5cc832f2f48b7ce5d75031268d7015e208f967d14e5d3b0b3d2a7585
 Architecture: iphoneos-arm
-Description: 烧饼修改器支持iOS5、iOS6、iOS7(支持64位)。v1.2.0版：采用全新架构，秒搜结果，支持模糊、联合等高级搜索功能，支持控制数据类型，解决稳定性兼容性问题。烧饼修改器是一款通用游戏修改器，通过修改正在运行游戏的内存数据，达到修改血量、攻击、金钱等目的。国产神器，烧饼哥力作，用心设计，简单好用，完全免费无限制无广告，持续更新优化！——by烧饼哥，官网http://sbtools.me
+Description: SBGameHacker memory editor for jailbroken iOS 5, 6 and 7. See the package details for the Chinese description.
 Author: 烧饼哥
 Sponsor: 烧饼哥
 Maintainer: 烧饼哥
 Icon: file:///Applications/GameMasterPlus.app/icon@2x.png
+Depiction: https://ruabbit.github.io/depic/sbgamehacker-1.2.0.html
 
 Package: me.thomasfinch.priorityhub
 Name: Priority Hub 2 BETA
