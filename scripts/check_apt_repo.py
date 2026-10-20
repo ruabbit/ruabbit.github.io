@@ -78,6 +78,11 @@ def verify_packages(root: Path) -> int:
         if missing:
             fail(f"Packages entry {index} is missing: {', '.join(sorted(missing))}")
 
+        for name in ("Depends", "Pre-Depends", "Recommends", "Suggests", "Enhances",
+                     "Breaks", "Conflicts", "Provides", "Replaces"):
+            if name in fields and not fields[name].strip():
+                fail(f"{fields['Package']} has empty {name}, which APT 0.7 rejects")
+
         deb_path = root / fields["Filename"]
         if not deb_path.is_file():
             fail(f"{fields['Package']} points to missing file: {fields['Filename']}")

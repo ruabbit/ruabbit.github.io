@@ -222,7 +222,16 @@ def build_entry(root: Path, deb_path: Path, depiction_base: str | None) -> Packa
     rewrite_legacy_urls(fields, depiction_base)
     apply_depiction_overrides(fields, depiction_base)
 
-    fields = [field for field in fields if field.name.lower() not in GENERATED_FIELDS]
+    # APT 0.7 rejects empty relationship fields found in some original DEBs.
+    relationship_fields = {
+        "depends", "pre-depends", "recommends", "suggests", "enhances",
+        "breaks", "conflicts", "provides", "replaces",
+    }
+    fields = [
+        field for field in fields
+        if field.name.lower() not in GENERATED_FIELDS
+        and not (field.name.lower() in relationship_fields and not field.value.strip())
+    ]
     rel_path = deb_path.relative_to(root).as_posix()
     size = deb_path.stat().st_size
     md5, sha1, sha256 = checksums(deb_path)

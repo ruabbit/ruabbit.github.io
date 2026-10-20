@@ -203,7 +203,6 @@ Size: 1502822
 MD5sum: 49d88577e231d4c36ae0f8cbb40bfb14
 SHA1: 2315df12d000df821673b469dbcd571af5266f78
 SHA256: eaf7308247c12518e5123a078737aff94685b3534d2352926719bcc049adb440
-Depends: 
 Architecture: iphoneos-arm
 Installed-Size: 2800
 Maintainer: Maocai Luo <luomao2000@tom.com>
