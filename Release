@@ -3,19 +3,19 @@ Label: Ruabbit
 Suite: stable
 Version: 1.0
 Codename: ios
-Architectures: iphoneos-arm
+Architectures: iphoneos-arm iphoneos-arm64
 Components: main
 Description: Ruabbit Cydia/APT repository
-Date: Tue, 20 Oct 2026 14:25:06 GMT
+Date: Fri, 06 Nov 2026 13:36:23 GMT
 MD5Sum:
- bdaebc2713081673382df32173f03765            13844 Packages
- d18b8c2e08393e519fd0e406686a027f             5242 Packages.gz
- 41fb50705b95c2ab8f7b3c2f335b438a             5202 Packages.bz2
+ d823b2ee0affdfe623c29c82c8d266da            14374 Packages
+ 7f9fa42cfb735ce7738318d3098c8292             5448 Packages.gz
+ e71aeff2f5068620a1527ad7af3acf21             5379 Packages.bz2
 SHA1:
- 76495b9b302863da4f8e0a9e812b1530dd1d6b60            13844 Packages
- 0543e5eda590c14eacb7bcab0c376bf6ebebc93f             5242 Packages.gz
- bb2272f836ac35a90d43be8463173d0b9d15e780             5202 Packages.bz2
+ 80f5f386dc77cc8e8e48dd497e7e699efef4573d            14374 Packages
+ ab965ea31f24997208f5f4036259c6d48d1994d3             5448 Packages.gz
+ b96afff503fc53bb2b2f8dc83b45a0fc65d6681d             5379 Packages.bz2
 SHA256:
- faf788ad1f9abf8e5780b5dd12cdeccd7bd563f6c8d70e69a359794fe0b82990            13844 Packages
- 2071d97a644f03fec1efca7c483ded0becbb3d29ae33553700deba250ddc60ef             5242 Packages.gz
- 8bb15f2ffa4cce6cb407681489f1638947db30033bab051774b8d55c6a029031             5202 Packages.bz2
+ 3ee371d6436ae9e783fd0caa997d0631f600641f1617e07f035ae2e4acf6bb67            14374 Packages
+ 0c8cf46a67845be83424ed262202538e73b3a5847fd868b6ea73b999eb291bcd             5448 Packages.gz
+ 8a92a08e77a851989b3188bf955ed7b8cb186f8ecd64920c824f5b98914b53e5             5379 Packages.bz2

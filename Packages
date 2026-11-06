@@ -173,6 +173,22 @@ Author: Misti <M_Dallak@outlook.com>
 Section: Fonts (BytaFont Tweak Mode)
 Description: Misti's Fonts for BytaFont 3 by M_Dallak
 
+Package: com.tanmy.egginccustomizer
+Name: Egg Inc Customizer
+Description: Runtime customization for Egg, Inc. 1.37.2.1
+Maintainer: tanmy
+Author: tanmy
+Section: Tweaks
+Depends: firmware (>= 15.0), ellekit, preferenceloader
+Filename: debs/com.tanmy.egginccustomizer_0.4.17_iphoneos-arm64.deb
+Size: 161534
+MD5sum: c1c23d41cf98f1c9a815b1a8a5028150
+SHA1: 3fbf5febbb7925f2072562de02fc0f22f898295f
+SHA256: 34f86205b4a8d082dabad49afeceac0d3197ca95f0ca4c277b2ac30cd5517f60
+Architecture: iphoneos-arm64
+Version: 0.4.17
+Installed-Size: 760
+
 Package: com.tweaksbylogan.falcon
 Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.a3tweaks.flipswitch
 Filename: debs/com.tweaksbylogan.falcon_1.0_iphoneos-arm.deb
