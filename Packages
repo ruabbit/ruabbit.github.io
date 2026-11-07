@@ -180,13 +180,13 @@ Maintainer: tanmy
 Author: tanmy
 Section: Tweaks
 Depends: firmware (>= 15.0), ellekit, preferenceloader
-Filename: debs/com.tanmy.egginccustomizer_0.4.19_iphoneos-arm64.deb
-Size: 161480
-MD5sum: d48612be3a29bb1a2a23f310ef273178
-SHA1: 09d75e3c4d80dc98e2e969d42e23ff2fb714f5d7
-SHA256: 1ebe640bb26169b06447af207281cc2f0dee5b05282db78829183570ac2d3bfe
+Filename: debs/com.tanmy.egginccustomizer_0.4.20_iphoneos-arm64.deb
+Size: 161666
+MD5sum: 86a9c45df8c3129ce6c0697944a75529
+SHA1: 178ded7c23f9c8e2a10411dfa4126d4f30e52ab6
+SHA256: b9b987140d5edd65131ac9eb8d78abd847ce9c7bcf13602fe3eea91615d939dd
 Architecture: iphoneos-arm64
-Version: 0.4.19
+Version: 0.4.20
 Installed-Size: 760
 
 Package: com.tweaksbylogan.falcon
